@@ -13,6 +13,3 @@ def hello_world(request):
 # DRF 방식으로
 def hello_world_drf(request):
     return Response({"message" : "hello_world!"})
-
-
-
